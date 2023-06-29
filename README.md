@@ -6,17 +6,30 @@ This repository contains the code base for developing our own operating system k
 
 This project is being developed openly on GitHub. If you encounter any issues or have questions, please feel free to open an issue on the repository. You can also leave comments at the bottom of the blog post.
 
-## Source Code
+The blog you're following is [Operating System Development in Rust](https://os.phil-opp.com/). It provides detailed explanations and tutorials on OS development using Rust.
 
-The complete source code for this project can be found in the `post-01` branch of this repository. Make sure to switch to the appropriate branch to access the code relevant to the blog post.
+## Learning Progress
 
-## Table of Contents
+As a student following the blog, you'll be learning the following topics in OS development using Rust:
 
-- [Introduction](#introduction)
-- [Disabling the Standard Library](#disabling-the-standard-library)
-  - [The `no_std` Attribute](#the-no_std-attribute)
-  - [Panic Implementation](#panic-implementation)
-  - [The `eh_personality` Language Item](#the-eh_personality-language-item)
-  - [Disabling Unwinding](#disabling-unwinding)
-- [Overwriting the Entry Point](#overwriting-the-entry-point)
-- [Linker Errors](#linker-errors)
+- Disabling the Standard Library
+  - The `no_std` Attribute
+  - Panic Implementation
+  - The `eh_personality` Language Item
+  - Disabling Unwinding
+- Overwriting the Entry Point
+- Linker Errors
+- A Minimal Rust Kernel
+
+Please refer to the blog posts on [Operating System Development in Rust](https://os.phil-opp.com/) and the source code in this repository to gain a better understanding of each topic.
+
+## Repository Structure
+
+The repository structure is as follows:
+
+- `Cargo.toml` and `Cargo.lock`: Dependency and build configuration files for the Rust project.
+- `src`: Directory containing the source code of the operating system.
+- `x86_64-os.json`: Configuration file for the Rust target specification.
+
+Feel free to explore the source code and modify it as you progress through your OS development journey.
+
